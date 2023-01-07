@@ -1,0 +1,15 @@
+.addevent_wrap{
+    background-color: #5e548e;
+    width: 600px;
+    margin: auto;
+    padding: 20px 30px 20px 25px;
+}
+.student_wrap{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #9f86c0;
+    margin-bottom: 15px;
+    padding: 0px 5px 0px 5px;
+    border-radius: 5px;
+}
