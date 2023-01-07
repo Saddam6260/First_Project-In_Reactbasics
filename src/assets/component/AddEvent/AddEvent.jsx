@@ -5,6 +5,7 @@ import Card from "../UI/Card"
 
 const AddEvent = (props) => {
 
+
   return (
     <Card className={classes.addevent_wrap}>
       {props.studentList.map((student, index) => {

@@ -1,0 +1,37 @@
+.form_wrap{
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.form{
+    display: flex;
+    flex-flow: row wrap;
+    row-gap: 15px;
+    justify-content: space-between;
+}
+.input_wrap{
+    display: flex;
+    flex-flow: column wrap;
+    width: 49%;
+    row-gap: 5px;
+}
+.input_wrap label{
+    color: white;
+}
+.input_wrap input{
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.btn_wrap{
+    margin-top: 20px;
+    display: flex;
+    justify-content: end;
+}
+.btn_wrap button{
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #9f86c0;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}

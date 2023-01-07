@@ -1,0 +1,12 @@
+.show_btn{
+    display: flex;
+    justify-content: center;
+}
+
+.show_btn button {
+    background-color: #9f86c0;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
