@@ -1,6 +1,7 @@
 .show_btn{
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
 }
 
 .show_btn button {

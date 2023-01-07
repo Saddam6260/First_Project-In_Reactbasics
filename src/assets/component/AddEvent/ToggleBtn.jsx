@@ -2,16 +2,12 @@ import React, { useState } from "react";
 
 import classes from "./ToggoleBtn.module.css";
 
-const ToggleBtn = () => {
-  const [toggle, setToggle] = useState(false);
-
-  const onToggleHandler = (event) => {
-    setToggle(!toggle)
-    console.log(toggle)
-  }
+const ToggleBtn = (props) => {
   return (
     <div className={classes.show_btn}>
-      <button onClick={onToggleHandler}>Show Form</button>
+      <button onClick={props.onToggleHandler}>
+        {props.showText ? "Hide Form" : "Show Form"}
+      </button>
     </div>
   );
 };
